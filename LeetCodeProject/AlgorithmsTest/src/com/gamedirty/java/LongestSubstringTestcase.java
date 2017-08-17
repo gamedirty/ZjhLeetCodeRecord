@@ -7,8 +7,10 @@ import com.gamedirty.java.solutions.LongestSubstringSolution;
  */
 public class LongestSubstringTestcase {
     public static void main(String[] args){
-        String s = "bbbbbba";
+        String s = "bdbbbba";
         System.out.println("最长子串的长度是："+ LongestSubstringSolution.lengthOfLongestSubstring(s));
+        System.out.println("最长子串的长度是："+ LongestSubstringSolution.lengthOfLongestSubstring2(s));
+
     }
 
 }
