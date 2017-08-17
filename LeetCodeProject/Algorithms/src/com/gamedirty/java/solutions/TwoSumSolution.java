@@ -41,9 +41,15 @@ public class TwoSumSolution {
     }
 
     /**
-     * 思路：的
+     * 问题描述：给定一个数组和一个数字，约定数组里必定有两个数字的和等于给定的数字，和等于给定数字的两个数组元素的下标。
+     *          这个思路假定了都是正整数TODO:兼容负数
+     * 思路： 准备一个与给定数组等长度的、有小到大排序的数组arr辅助计算，遍历给定数组得到元素m，与给定Target进行比较,如果比target大则pass。
+     *         如果比target小，则按从小到大顺序拿到arr中的整数与m求和并与target比较大小：
+     *                                                                                 1）相等，循环结束，返回结果
+     *                                                                                 2）和小于target，go on
+     *                                                                                 3）大于target，循环结束，无结果
+     * 由于数组arr要同时记录遍历到的元素的值和下标，我这里记录的具体数字是由值和下标计算出来的一个结果,可以通过计算反推出值和下标
      */
-
     public static int[] twoSum3(int[] nums, int target) {
         int buffLenth = 0;
         final int targetLenth = String.valueOf(target).length();

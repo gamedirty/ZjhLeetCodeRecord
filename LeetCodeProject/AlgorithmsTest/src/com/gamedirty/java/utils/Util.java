@@ -1,4 +1,4 @@
-package com.gamedirty.java;
+package com.gamedirty.java.utils;
 
 public class Util {
 
@@ -7,5 +7,9 @@ public class Util {
         System.out.println(cu);
 
         return cu;
+    }
+
+    public static void print(String s){
+        System.out.println(s);
     }
 }
