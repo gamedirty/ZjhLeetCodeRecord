@@ -12,4 +12,6 @@ public class SortTest {
         System.out.println(Arrays.toString(NUMBERS));
         System.out.println("找到51的位置是："+new BinarySearch().indexOf(NUMBERS,51));
     }
+
+
 }

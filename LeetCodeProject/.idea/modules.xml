@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/Algorithms/Algorithms.iml" filepath="$PROJECT_DIR$/Algorithms/Algorithms.iml" />
       <module fileurl="file://$PROJECT_DIR$/AlgorithmsTest/AlgorithmsTest.iml" filepath="$PROJECT_DIR$/AlgorithmsTest/AlgorithmsTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/LeetCodeProject.iml" filepath="$PROJECT_DIR$/LeetCodeProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Offer/Offer.iml" filepath="$PROJECT_DIR$/Offer/Offer.iml" />
     </modules>
   </component>
 </project>
